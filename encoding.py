@@ -3,13 +3,13 @@ from pathlib import Path
 face_nn_path = Path(__file__).absolute().parent
 sys.path.insert(0, str(face_nn_path))
 
-from retinaface import Retinaface
+from face_nn.retinaface import Retinaface
 
 '''
 在更换facenet网络后一定要重新进行人脸编码，运行encoding.py。
 '''
 retinaface = Retinaface(1)
-dataset_path = face_nn_path/"face_dataset"
+dataset_path = face_nn_path/"face_nn/face_dataset"
 list_dir = os.listdir(dataset_path)
 image_paths = []
 names = []
