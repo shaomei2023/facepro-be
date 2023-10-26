@@ -3,13 +3,18 @@
 
 ## Repository
 Repository: Facepro-be
+
 Path: https://github.com/shaomei2023/facepro-be
       
 ## My environment
 Operating System (OS): Ubuntu
+
 Development Tools: VSCode with remote development extensions
+
 Programming Language: Python
+
 Web Server: Flask
+
 Deep Learning Framework: PyTorch   
 
 ## Steps of Deployment
